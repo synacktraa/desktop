@@ -6,7 +6,7 @@ import { writeFileSync } from 'fs';
 
 
 console.log("Starting desktop sandbox...")
-const desktop = await Desktop.create({
+const desktop = await Desktop.create("hnvd1lpiwnmcvzz9hfih", {
   enableStreamAuth: true,
 })
 console.log("Desktop Sandbox started, ID:", desktop.sandboxId)
